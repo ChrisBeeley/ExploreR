@@ -480,16 +480,7 @@ server <- function(input,output,session){
       )
     )
   })
-  observeEvent(input$zeroAnalysisDataPicker, once = T, {
-    showModal(
-      modalDialog(
-        p("",
-        easyClose = TRUE
-      )
-    )
-    )
-  })
-  
+
   ## Add analysis dataset
   observeEvent(input$zeroAnalysisDataPickerAdd, {
     showModal(
