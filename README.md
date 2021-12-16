@@ -12,27 +12,27 @@ ExploreR uses linked data consisting of two data files: **Attributes** and **Act
 
 The ExploreR was built using the following package versions. Please note later versions should, in most cases, be backwards compatible, but this cannot be guaranteed. Packages versions were obtained using _getNamespaceVersion(libraryName)_ in R.
 
-R version 3.6.3, on Windows 10
-shinyBS: 0.61
-scales: 1.1.1
-RStudio version 1.3.1093
-dplyr: 1.0.6
-rpart: 4.1-15
-shiny: 1.6.0
-plotly: 4.9.3
-rpart.plot: 3.0.9
-shinydashboard: 0.7.1
-treemap: 2.4-2
-cluster: 2.1.0
-tidyverse: 1.3.0
-RColorBrewer: 1.1-2
-FactoMineR: 2.4
-shinyTree: 0.2.7
-ggplot2: 3.3.5
-data.table: 1.13.2
-shinyWidgets: 0.6.0
-lubridate: 1.7.9.2
-DT: 0.16
+* R version 3.6.3, on Windows 10
+* shinyBS: 0.61
+* scales: 1.1.1
+* RStudio version 1.3.1093
+* dplyr: 1.0.6
+* rpart: 4.1-15
+* shiny: 1.6.0
+* plotly: 4.9.3
+* rpart.plot: 3.0.9
+* shinydashboard: 0.7.1
+* treemap: 2.4-2
+* cluster: 2.1.0
+* tidyverse: 1.3.0
+* RColorBrewer: 1.1-2
+* FactoMineR: 2.4
+* shinyTree: 0.2.7
+* ggplot2: 3.3.5
+* data.table: 1.13.2
+* shinyWidgets: 0.6.0
+* lubridate: 1.7.9.2
+* DT: 0.16
 
 ## Attributes table
 
