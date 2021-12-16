@@ -1,6 +1,6 @@
 # ExploreR
 
-This README is an edited version of a Word document the original repo (Authors: [Andras Varady](https://github.com/avarady1) and Anna Powell)
+This README is an edited version of a Word document from the [original repo](https://github.com/nhs-bnssg-analytics/ExploreR) (Authors: [Andras Varady](https://github.com/avarady1) and Anna Powell)
 
 ## Introduction
 
