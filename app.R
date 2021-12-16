@@ -9,24 +9,13 @@ library(treemap)
 library(RColorBrewer)
 library(shinyTree)
 library(ggplot2)
-
-
 library(shinyWidgets)
-# library(sf)
-# library(tigris)
-# library(leaflet)
-# library(tmap)
 library(dplyr)
-# library(gridExtra)
-# library(grid)
 library(scales)
-
 library(rpart)
 library(rpart.plot)
-
 library(cluster)
 library(FactoMineR)
-
 library(data.table)
 library(DT)
 
@@ -494,15 +483,10 @@ server <- function(input,output,session){
   observeEvent(input$zeroAnalysisDataPicker, once = T, {
     showModal(
       modalDialog(
-        title = "User Agreement",
-        p("By using the PHM ExploreR you agree to use the tool responsibly, as per your duty of care. You also agree to use the ExploreR to answer considered questions, as opposed to ",
-        "'fishing'. In addition, you have a duty to maintain confidentiality, as patient-level data is present in the tool."),
-        p("Subsequently, as we cannot physically stop you from taking screenshots or images from the tool, in the event you do take some to share with collegues, it is your duty to ",
-          "ensure confidentiality is maintained."),
-        "If you have any concerns about being able to responsibly use this tool, close the window.",
-        footer = list(modalButton("I accept")),
-        easyClose = F
+        p("",
+        easyClose = TRUE
       )
+    )
     )
   })
   
